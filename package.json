@@ -2,7 +2,7 @@
   "name": "josh-sideris-campaign",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jsideris.github.io/vote-for-josh-ppc",
+  "homepage": "https://voteforjosh.ca",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
