@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Bio from './components/Bio/Bio';
+import Platform from './components/Platform/Platform';
+import GetInvolved from './components/GetInvolved/GetInvolved';
+import Footer from './components/Footer/Footer';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Skip to main content link for accessibility */}
+      <a href="#main-content" className="skip-link">Skip to main content</a>
+      
+      <Header />
+      <Hero />
+      
+      <main id="main-content">
+        <Bio />
+        <Platform />
+        <GetInvolved />
+      </main>
+      
+      <Footer />
+    </>
   );
 }
 

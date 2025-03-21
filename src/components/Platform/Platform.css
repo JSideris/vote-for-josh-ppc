@@ -1,0 +1,44 @@
+.platform {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-bottom: 4rem;
+}
+
+.issue-card {
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.issue-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.issue-icon {
+	height: 150px;
+	background-color: var(--primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	color: white;
+}
+
+.issue-content {
+	padding: 1.5rem;
+}
+
+.issue-content h3 {
+	margin-bottom: 1rem;
+	color: var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+	.platform {
+		grid-template-columns: 1fr;
+	}
+}

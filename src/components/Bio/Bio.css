@@ -1,0 +1,50 @@
+.bio {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	margin-bottom: 4rem;
+}
+
+.bio-image {
+	flex: 1;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bio-image img {
+	width: 100%;
+	display: block;
+}
+
+.bio-text {
+	flex: 1;
+}
+
+.bio-text h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	color: var(--primary);
+}
+
+.social-links {
+	margin-top: 1.5rem;
+}
+
+.social-links a {
+	display: inline-block;
+	margin-right: 1rem;
+	color: var(--primary);
+	font-size: 1.5rem;
+	transition: color 0.3s;
+}
+
+.social-links a:hover {
+	color: var(--secondary);
+}
+
+@media screen and (max-width: 768px) {
+	.bio {
+		flex-direction: column;
+	}
+}

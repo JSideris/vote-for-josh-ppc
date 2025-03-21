@@ -1,0 +1,111 @@
+:root {
+    --primary: #663399;  /* PPC Primary purple */
+    --secondary: #00B17A; /* PPC Teal/green */
+    --dark: #452475;  /* PPC Darker purple */
+    --light: #FFFFFF;
+    --accent: #542C85;   /* PPC Secondary purple */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--secondary);
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid var(--secondary);
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--secondary);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.btn-primary:hover {
+    color: var(--accent);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--primary);
+    position: relative;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: var(--secondary);
+    margin: 0.5rem auto;
+}
+
+.highlight {
+    background-color: rgba(255, 140, 66, 0.2);
+    padding: 1.5rem;
+    border-left: 4px solid var(--secondary);
+    margin: 2rem 0;
+}
+
+.highlight h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+/* Skip to main content link for accessibility */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    opacity: 0;
+}
+
+.skip-link:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .container {
+        padding: 2rem 1rem;
+    }
+}

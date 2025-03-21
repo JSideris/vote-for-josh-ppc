@@ -1,0 +1,49 @@
+.footer {
+	background-color: var(--dark);
+	color: white;
+	text-align: center;
+	padding: 2rem;
+}
+
+.footer-content {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.footer-logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.footer-logo span {
+	color: var(--secondary);
+}
+
+.footer-links {
+	margin: 1.5rem 0;
+}
+
+.footer-links a {
+	color: white;
+	margin: 0 1rem;
+	text-decoration: none;
+}
+
+.footer-links a:hover {
+	text-decoration: underline;
+}
+
+.footer-social {
+	margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+	color: white;
+	margin: 0 0.5rem;
+	font-size: 1.2rem;
+}
+
+.footer-social a:hover {
+	color: var(--secondary);
+}

@@ -1,0 +1,44 @@
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://voteforjosh.ca/assets/images/richmond-hill-construction.jpg') center/cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	padding: 0 1rem;
+	margin-bottom: 2rem;
+}
+
+.hero-content {
+	max-width: 800px;
+}
+
+.hero h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-buttons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+	.hero h1 {
+		font-size: 2.5rem;
+	}
+
+	.hero p {
+		font-size: 1.1rem;
+	}
+}
