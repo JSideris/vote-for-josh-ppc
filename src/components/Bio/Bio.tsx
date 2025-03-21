@@ -39,7 +39,10 @@ const Bio: React.FC = () => {
 				<div className="bio-text">
 					<h3>PPC Candidate—Not a Career Politician</h3>
 					<p>
-						I'm Joshua Sideris, and I'm running as the People's Party of Canada candidate to be your next Member of Parliament for Richmond Hill South. I'm not a career politician—I'm an engineer, an entrepreneur, and a problem solver. My life's work has been about building solutions that matter, from cutting-edge technology that saves lives to tools that bring people together. Now, I want to bring that same energy and expertise to Ottawa to serve our community.
+						I'm Joshua Sideris, and I'm running as the People's Party of Canada candidate to be your next Member of Parliament for Richmond Hill South. 
+						I'm not a career politician—I'm an engineer, an entrepreneur, and a problem solver. 
+						My life's work has been about building solutions that matter, from cutting&#8209;edge technology that saves lives to tools that bring people together. 
+						Now, I want to bring that same energy and expertise to Ottawa to serve our community.
 					</p>
 					<div className="social-links">
 						{socialLinks.map((link, index) => (

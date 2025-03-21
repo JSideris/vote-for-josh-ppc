@@ -8,7 +8,7 @@ const Platform: React.FC = () => {
 		{
 			icon: "faGlobe",
 			title: "International Trade",
-			description: "All major parties seem to think Canada needs a trade war. The PPC disagrees. The USA will tax their citizens for our imports regardless—we need to stop treating ourselves like a US mining colony, diversify our production and partners, and start consuming what we produce to come out ahead."
+			description: "All major parties seem to think Canada needs a trade war. The PPC disagrees. The USA will tax their citizens for our imports regardless—we need to stop treating ourselves like a US mining colony; diversify our production and partners; and start consuming what we produce to come out ahead."
 		},
 		{
 			icon: "faShoppingCart",
@@ -53,7 +53,7 @@ const Platform: React.FC = () => {
 
 			<div className="highlight">
 				<h3>Bottom Line — Canadians Deserve a Choice</h3>
-				<p>The Liberals and Conservatives keep recycling the same tired ideas, but Canada deserves better. We"re not doomed—we can have a stronger, fairer country. Open your mind, talk to your neighbors, and let"s <b>break the uniparty grip</b> together.</p>
+				<p>The Liberals and Conservatives keep recycling the same tired ideas, but Canada deserves better. We're not doomed—we can have a stronger, fairer country. Open your mind, talk to your neighbours, and let's <b>break the uniparty grip</b> together.</p>
 			</div>
 		</section>
 	);
