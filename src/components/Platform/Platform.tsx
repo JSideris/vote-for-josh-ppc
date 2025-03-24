@@ -19,16 +19,16 @@ const Platform: React.FC = () => {
 			detailedContent: (
 				<>
 
-					<h3>Tariffs Aren’t About Trump’s Demands</h3>
-					<p>Trump’s tariffs aren’t simply bullying—they’re about funding the USA, as he said <a href="https://youtu.be/MhlakXbewcM" target="_blank">in his inauguration speech</a>. In the 19th century, tariffs covered up to 95% of government revenue, with no income tax. That’s his goal. He uses fentanyl as an excuse to make Canada fund his border security and cites our banking rules to boost US banks. Canadian leaders scramble to comply, but the tariffs won’t stop—there’s always a new demand, from fentanyl to banking access and beyond. Meeting his asks changes nothing; he’s stringing us along while we bend over backwards.</p>
+					<h3>Tariffs Aren't About Trump's Demands</h3>
+					<p>Trump's tariffs aren't simply bullying—they're about funding the USA, as he said <a href="https://youtu.be/MhlakXbewcM" target="_blank">in his inauguration speech</a>. In the 19th century, tariffs covered up to 95% of government revenue, with no income tax. That's his goal. He uses fentanyl as an excuse to make Canada fund his border security and cites our banking rules to boost US banks. Canadian leaders scramble to comply, but the tariffs won't stop—there's always a new demand, from fentanyl to banking access and beyond. Meeting his asks changes nothing; he's stringing us along while we bend over backwards. He literally wrote the book on this.</p>
 
 					<h3>The PPC Stands Alone Against the Trade War</h3>
-					<p>We don’t need to “stand firm” against him. We just need to avoid self-inflicted wounds. Counter-tariffs, favored by all parties except the PPC, sound tough but hurt us more. But there's a better way: vertical integration at home. Instead of exporting raw materials and importing finished goods, let’s manufacture here, keeping jobs and money in Canada. A concept that doesn't boad well with established special interest groups and their political benefactors.</p>
-					<p>Counter-tariffs double our pain. We pay once when the USA taxes our exports, then again when we tax our own imports. That drives up prices on everyday goods, costing families hundreds more yearly. It’s a lose-lose. The PPC won’t play Trump’s game or tax you twice—we’ll strengthen Canada by making things here.</p>
+					<p>This isn't a war we need to fight. We just need to avoid self-inflicted wounds. Counter-tariffs, favored by all parties except the PPC, sound tough but hurt us more. However, there's a better way: vertical integration at home. Instead of exporting raw materials and importing finished goods, let's manufacture here, keeping jobs and money in Canada. A concept that doesn't boad well with established special interest groups and their political benefactors.</p>
+					<p>Counter-tariffs double our pain. We pay once when the USA taxes our raw exports, then again when our own government taxes imports of finished products. That drives up prices on everyday goods, costing families immeasurably. There is no way to "win" this. As your MP, I won't play Trump's game or tax you twice—I'll fight to strengthen Canada by making things here.</p>
 
 					<h3>Our Elected Leaders Have it All Wrong</h3>
 
-					<p>The trade war is a disaster we don’t need. The PPC has a better way—free trade, less dependence on the USA, and an economy built for Canadians, not corporations.</p>
+					<p>The trade war is a disaster we don't need. The PPC has a better way—free trade, less dependence on the USA, and an economy built for Canadians, not corporations.</p>
 				</>
 			)
 		},
