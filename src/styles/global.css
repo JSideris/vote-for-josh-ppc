@@ -4,6 +4,7 @@
     --dark: #452475;  /* PPC Darker purple */
     --light: #FFFFFF;
     --accent: #542C85;   /* PPC Secondary purple */
+    --highlight: #9088b0;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Raleway, Cabin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--dark);
     background-color: var(--light);
@@ -34,7 +35,7 @@ body {
 }
 
 .btn:hover {
-    background-color: transparent;
+    background-color: #00000088;
     color: var(--secondary);
 }
 
@@ -44,6 +45,7 @@ body {
 }
 
 .btn-primary:hover {
+    background-color: #FFFFFF88;
     color: var(--accent);
 }
 
@@ -65,14 +67,15 @@ body {
 }
 
 .highlight {
-    background-color: rgba(255, 140, 66, 0.2);
+    background-color: var(--primary);
+    color: var(--light);
     padding: 1.5rem;
     border-left: 4px solid var(--secondary);
     margin: 2rem 0;
 }
 
 .highlight h3 {
-    color: var(--primary);
+    color: var(--light);
     margin-bottom: 0.5rem;
 }
 

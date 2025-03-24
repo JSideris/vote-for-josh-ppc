@@ -3,6 +3,8 @@ export interface IssueCardProps {
 	icon: string;
 	title: string;
 	description: string;
+	detailedTitle?: string;
+	detailedContent?: React.ReactNode;
 }
 
 // Involvement card interface
