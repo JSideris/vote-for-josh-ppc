@@ -20,6 +20,10 @@ body {
     background-color: var(--light);
 }
 
+a{
+    color: var(--secondary);
+}
+
 .btn {
     display: inline-block;
     background-color: var(--secondary);

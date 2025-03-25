@@ -47,9 +47,17 @@ const Platform: React.FC = () => {
 			icon: "faLeaf",
 			title: "Environment",
 			description: "Protecting our environment matters, but we don't have to choose between green goals and good jobs. Let's build a thriving economy that funds clean technology and real solutions—because a strong Canada is a green Canada.",
+			detailedTitle: "PPC's Economic Focus Beats the Climate Agenda",
 			detailedContent: (
 				<>
+					<h3>Carbon Policies Hurt Jobs and Increase Global Pollution</h3>
+					<p>Carbon taxes and emissions caps kill small businesses, spike costs, and cut jobs in industries like farming and manufacturing. They also push companies overseas to more pollutive countries, raising global pollution via "carbon leakage".</p>
 
+					<h3>What is Carbon Leakage, and How Does it Happen?</h3>
+					<p>Consider a Canadian steel manufacturer. Faced with rising carbon taxes at home, they decide to relocate production to India, where energy costs are lower and environmental regulations are less stringent. While Canada's emissions might decrease on paper, India's emissions increase even more because they rely on coal-fired power plants. Finished products are shipped accross the ocean on cargo ships that burn massive amounts of oil. The net effect is that global pollution rises. This isn't just a hypothetical scenario—research from <a href="https://oxfordtax.sbs.ox.ac.uk/article/global-spillovers-carbon-taxes-how-emissions-leak-developing-conuntries" target="_blank">Oxford University</a> shows that European carbon policies led to a 5% increase in emissions in Africa as multinational firms shifted production to avoid higher costs. Our policies, intended to save the planet, might actually be making the problem worse.</p>
+
+					<h3>The Climate Agenda's Hidden Costs and the PPC's Solution</h3>
+					<p>Canada's pricey green policies—taxes, renewable subsidies—hit households hard, especially lower-income ones, while global emissions climb, led by developing nations like China and India (57% of CO2, <a href="https://www.visualcapitalist.com/co2-emissions-by-income/" target="_blank" >Visual Capitalist</a>). Going green is a luxury poor countries can't afford; they prioritize cheap energy to grow. Ironically, these policies weaken us without denting the biggest polluters. Politicians dodge accountability—like blaming forest fires on climate change instead of bad management (<a href="https://www.cbc.ca/news/canada/north/fire-paradox-northern-wildfire-management-1.5707176" target="_blank">CBC News</a>)—while carbon leakage and costs mock the agenda's goals. The PPC says: grow the economy first. Wealthy nations cut emissions through prosperity and innovation (<a href="https://ourworldindata.org/co2-emissions" target="_blank">Our World in Data</a>). A strong Canada can lead on the environment without breaking the bank or exporting jobs.</p>
 				</>
 			)
 		},
