@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
 					<a href="#get-involved" onClick={handleLinkClick}>Get Involved</a>
 				</div>
 				<div className="footer-social">
-					<a href="https://x.com/joshsideris" target="_blank" rel="noopener" rel="noopener noreferrer" aria-label="Twitter">
+					<a href="https://x.com/joshsideris" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
 						<FontAwesomeIcon icon={faXTwitter} />
 					</a>
 					{/* Additional social media links can be added here */}

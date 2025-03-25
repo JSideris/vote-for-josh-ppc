@@ -31,7 +31,7 @@ const InvolvementCard: React.FC<InvolvementCardProps> = ({
 			</div>
 			<h3>{title}</h3>
 			<p>{description}</p>
-			<a href={buttonLink} className="btn" target="_blank" rel="noopener" rel="noopener noreferrer">
+			<a href={buttonLink} className="btn" target="_blank" rel="noopener noreferrer">
 				{buttonText}
 			</a>
 			{additionalText && <small>{additionalText}</small>}

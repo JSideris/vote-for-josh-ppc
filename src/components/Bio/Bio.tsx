@@ -49,7 +49,7 @@ const Bio: React.FC = () => {
 							<a
 								key={index}
 								href={link.url}
-								target="_blank" rel="noopener"
+								target="_blank"
 								rel="noopener noreferrer"
 								aria-label={`Follow Joshua Sideris on ${link.platform}`}
 							>
