@@ -35,10 +35,19 @@ const Platform: React.FC = () => {
 		{
 			icon: "faShoppingCart",
 			title: "Costs and Food Prices",
-			description: "Canadians are tired of overpaying for basics (like milk). Our prices are double what Americans pay because big corporations receive special protection. It's time to break up these cozy deals, cut costs, and make our economy work for us, not just the insiders.",
+			description: "From cellular service to milk, Canadians are tired of overpaying. Our government's solution to high prices has always been corporate handouts, but all this does is create monopolies that rip us off. We routinely pay double what Americans pay. It's time to break up these cozy deals, cut costs, and make our economy work for us, not just insiders.",
+			detailedTitle: "Government Meddling Makes Food Expensive",
 			detailedContent: (
 				<>
+					<h3>Let's Stop Supporting Cartels</h3>
+					<p>Canada's dairy industry is one of many <strong>cartels</strong> that has infected our government under the guise of something called "supply management." In reality, it's a <strong>racket</strong> that forces farmers to waste milk, cull livestock, punishes the innocent, and treats cheese like contraband. Dairy farmers are given a quota for how much milk they can produce. When they exceed that quota, they are forced to <strong>dump milk</strong>. Remeber this viedo next time you're being ripped off at the grocery store.</p>
 
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qzF3R2xe65o?si=SiWdmdBTKhwhp4Wa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+					<p>These cartels have teeth. In 2019 Greek Orthodox nuns were fined $75,000 by dairy producers for selling milk without permission (<a href="https://www.cbc.ca/news/canada/montreal/nuns-milk-fine-1.5343543" target="_blank" rel="noopener">CBC News</a>), and a man smuggling cheese faced a $30,000 fine (<a href="https://nationalpost.com/news/canada/man-fined-30000-for-smuggling-almost-4000-kg-of-cheese-into-canada" target="_blank" rel="noopener">National Post</a>). The message to Canadians is clear: "compete with us, and we'll ruin your life". It's as if our country is being run by gangsters. It's a system rigged designed to maximize corporate profits using artificial shortages, all protected by the government. Unfortunately, these cartels are supported by every major party, including the Conservative Party of Canada. It's politically corrupt, and morally bankrupt.</p>
+
+					<h3>Vote for Change</h3>
+					<p>The PPC is the only party in Canada that is unilaterally against cartels. As your MP, I will fight against all forms of protectionism and corporate handouts so that our economy can be powered by a free and open merit-based market.</p>
 				</>
 			)
 		},
@@ -46,7 +55,7 @@ const Platform: React.FC = () => {
 		{
 			icon: "faLeaf",
 			title: "Environment",
-			description: "Protecting our environment matters, but we don't have to choose between green goals and good jobs. Let's build a thriving economy that funds clean technology and real solutions—because a strong Canada is a green Canada.",
+			description: "Carbon taxes crush small businesses and ship pollution abroad. Costly climate policies fail as global emissions climb. Poor nations pollute out of necessity. The PPC's plan: prioritize economic growth. A prosperous Canada can lead environmentally—without job losses or tax hikes.",
 			detailedTitle: "PPC's Economic Focus Beats the Climate Agenda",
 			detailedContent: (
 				<>
