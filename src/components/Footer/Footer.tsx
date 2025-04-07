@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
 				<div className="footer-logo">
 					JOSH <span>SIDERIS</span> for Richmond Hill South
 				</div>
-				<p>Authorized by Olivia Gajadhar, Official Agent for Joshua Sideris</p>
+				<p>Authorized by the Official Agent of Joshua Sideris</p>
 				<div className="footer-links">
 					<a href="#home" onClick={handleLinkClick}>Home</a>
 					<a href="#about" onClick={handleLinkClick}>About</a>
