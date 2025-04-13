@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
 		<section className="hero" id="home">
 			<div className="hero-content">
 				<h1>Joshua Sideris for Richmond Hill South</h1>
-				<p>PPC Candidate • Engineer • Entrepreneur • Problem Solver</p>
+				<p>PPC Candidate • Engineering • Entrepreneur • Problem Solver</p>
 				<div className="hero-buttons">
 					<a href="#get-involved" className="btn btn-primary" onClick={handleLinkClick}>
 						Get Involved
