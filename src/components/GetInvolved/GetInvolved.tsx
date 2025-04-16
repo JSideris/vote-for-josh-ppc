@@ -1,21 +1,10 @@
-import React, { useState } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
-import { Elements } from '@stripe/react-stripe-js';
+import React from 'react';
 import InvolvementCard from './InvolvementCard';
 import './GetInvolved.css';
-import StripeDonationForm from '../StripeDonationForm/StripeDonationForm';
-import SlideUpModal from '../SlideUpModal/SlideUpModal';
-
-// Replace with your actual Stripe publishable key
-// const stripePromise = loadStripe('pk_test_51REUFWIKuaSIpfFGkQXP1dodY8YTgBPkqwBE7TgqEzkMKKCyNwbtbl0iutZspYZ25h3sJD9PnYW9Tflb7Jjje4Wr00yrjxxqCv');
-const stripePromise = loadStripe('pk_live_51REUFWIKuaSIpfFG3eVYTZlwfPGegxQBWOEdKbcvx2DAK2twRU3mAowtmFQSMr9lqTRm3GdHY7yNKhUiCfOQargE00Asnd71b9');
+import { useDonationModal } from '../DonationModalContext';
 
 const GetInvolved: React.FC = () => {
-	const [isDonateModalOpen, setIsDonateModalOpen] = useState(false);
-
-	const handleDonateClick = () => {
-		setIsDonateModalOpen(true);
-	};
+	const { openDonationModal } = useDonationModal();
 
 	return (
 		<section id="get-involved" className="get-involved">
@@ -26,7 +15,7 @@ const GetInvolved: React.FC = () => {
 					title="Donate"
 					description="Your contribution makes a real difference in our campaign to bring fresh leadership to Ottawa."
 					buttonText="Donate Now"
-					onButtonClick={handleDonateClick}
+					onButtonClick={openDonationModal}
 					additionalText="(Support our campaign directly)"
 				/>
 				<InvolvementCard
@@ -51,17 +40,6 @@ const GetInvolved: React.FC = () => {
 					buttonLink="https://docs.google.com/forms/d/e/1FAIpQLSdy4obzDpzxdhMtIAZtfRTMJLSo1hdoZfQuzNneeRiwJ1Ps_g/viewform?usp=dialog"
 				/>
 			</div>
-
-			{/* Stripe Donation Modal */}
-			<Elements stripe={stripePromise}>
-				<SlideUpModal
-					isOpen={isDonateModalOpen}
-					onClose={() => setIsDonateModalOpen(false)}
-					title="Make a Donation"
-				>
-					<StripeDonationForm />
-				</SlideUpModal>
-			</Elements>
 		</section>
 	);
 };

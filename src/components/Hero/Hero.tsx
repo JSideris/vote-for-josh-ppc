@@ -1,7 +1,11 @@
 import React from 'react';
 import './Hero.css';
+import { useDonationModal } from '../DonationModalContext';
 
 const Hero: React.FC = () => {
+
+	const { openDonationModal } = useDonationModal();
+
 	const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
 		e.preventDefault();
 
@@ -18,6 +22,12 @@ const Hero: React.FC = () => {
 		}
 	};
 
+	const buttonStyle = {
+		fontFamily: "Raleway, Cabin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+		fontSize: "1rem",
+		lineHeight: "1.6"
+	};
+
 	return (
 		<section className="hero" id="home">
 			<div className="hero-content">
@@ -27,7 +37,14 @@ const Hero: React.FC = () => {
 					<a href="#get-involved" className="btn btn-primary" onClick={handleLinkClick}>
 						Get Involved
 					</a>
-					<a href="#platform" className="btn" onClick={handleLinkClick}>
+					<button 
+						style={buttonStyle}
+						className="btn btn-secondary"
+						onClick={openDonationModal}
+					>
+						Donate Now
+					</button>
+					<a href="#platform" className="btn btn-primary" onClick={handleLinkClick}>
 						Learn More
 					</a>
 				</div>
