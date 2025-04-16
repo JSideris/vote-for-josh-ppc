@@ -14,6 +14,7 @@ const InvolvementCard: React.FC<InvolvementCardProps> = ({
 	description,
 	buttonText,
 	buttonLink,
+	onButtonClick,
 	additionalText
 }) => {
 	// Icon mapping
@@ -24,6 +25,12 @@ const InvolvementCard: React.FC<InvolvementCardProps> = ({
 		'faComment': faComment
 	};
 
+	const buttonStyle = {
+		fontFamily: "Raleway, Cabin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+		fontSize: "1rem",
+		lineHeight: "1.6"
+	};
+
 	return (
 		<div className="involvement-card">
 			<div className="involvement-icon" aria-hidden="true">
@@ -31,9 +38,15 @@ const InvolvementCard: React.FC<InvolvementCardProps> = ({
 			</div>
 			<h3>{title}</h3>
 			<p>{description}</p>
-			<a href={buttonLink} className="btn" target="_blank" rel="noopener noreferrer">
-				{buttonText}
-			</a>
+			{onButtonClick ? (
+				<button onClick={onButtonClick} className="btn" style={buttonStyle}>
+					{buttonText}
+				</button>
+			) : (
+				<a href={buttonLink} className="btn" target="_blank" rel="noopener noreferrer">
+					{buttonText}
+				</a>
+			)}
 			{additionalText && <small>{additionalText}</small>}
 		</div>
 	);

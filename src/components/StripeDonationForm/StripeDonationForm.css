@@ -1,0 +1,234 @@
+.donation-form-tax-credit {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: rgba(0, 177, 122, 0.1);
+	border-left: 3px solid var(--secondary);
+	border-radius: 4px;
+}
+
+.donation-form-tax-credit p {
+	margin-bottom: 0.5rem;
+	font-size: 0.95rem;
+}
+
+.donation-form-tax-credit p:last-of-type {
+	margin-bottom: 0.75rem;
+}
+
+.donation-form-tax-credit strong {
+	color: var(--secondary);
+	font-size: 1.1rem;
+}
+
+.donation-form-tax-note {
+	display: block;
+	font-size: 0.8rem;
+	color: var(--dark);
+	opacity: 0.8;
+	line-height: 1.4;
+}
+
+.donation-form-election-over {
+	text-align: center;
+	padding: 2rem;
+}
+
+.donation-form-election-over h2 {
+	color: var(--primary);
+	margin-bottom: 1.5rem;
+}
+
+.donation-form-election-over p {
+	margin-bottom: 1.5rem;
+	line-height: 1.6;
+}
+
+.donation-form-election-over .btn {
+	margin-top: 1rem;
+	display: inline-block;
+}
+
+/* StripeDonationForm.css */
+
+.donation-form-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: var(--light);
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form-title {
+	color: var(--primary);
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.donation-form-intro {
+	margin-bottom: 1.5rem;
+	line-height: 1.6;
+}
+
+.donation-form-notice {
+	font-size: 0.9rem;
+	color: var(--dark);
+	opacity: 0.8;
+	padding: 0.75rem;
+	border-left: 3px solid var(--secondary);
+	background-color: rgba(0, 177, 122, 0.1);
+	margin-bottom: 1.5rem;
+}
+
+.donation-form-field {
+	margin-bottom: 1.25rem;
+}
+
+.donation-form-label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: var(--dark);
+}
+
+.donation-form-input {
+	width: 100%;
+	padding: 0.8rem 1rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	font-size: 1rem;
+	transition: border-color 0.3s ease;
+}
+
+.donation-form-input:focus {
+	outline: none;
+	border-color: var(--secondary);
+	box-shadow: 0 0 0 2px rgba(0, 177, 122, 0.2);
+}
+
+.donation-form-checkbox-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+}
+
+.donation-form-checkbox {
+	margin-right: 0.75rem;
+	margin-top: 0.25rem;
+	width: 18px;
+	height: 18px;
+	accent-color: var(--secondary);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 2px solid var(--secondary);
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.donation-form-checkbox:checked {
+	background-color: var(--secondary);
+}
+
+.donation-form-checkbox:checked::before {
+	content: '✓';
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	line-height: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.donation-form-checkbox-label {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+.donation-form-card-container {
+	margin-top: 1.5rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 1rem;
+	background-color: #f9f9f9;
+}
+
+/* Style the Stripe CardElement */
+.donation-form-card-container .StripeElement {
+	padding: 0.8rem;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	transition: box-shadow 0.3s ease;
+}
+
+.donation-form-card-container .StripeElement--focus {
+	box-shadow: 0 0 0 2px rgba(0, 177, 122, 0.2);
+}
+
+.donation-form-card-container .StripeElement--invalid {
+	border-color: #fa755a;
+}
+
+.donation-form-error {
+	color: #e53e3e;
+	margin-top: 1rem;
+	padding: 0.75rem;
+	background-color: rgba(229, 62, 62, 0.1);
+	border-radius: 4px;
+	font-size: 0.9rem;
+}
+
+.donation-form-card-error {
+	color: #e53e3e;
+	margin-top: 0.5rem;
+	font-size: 0.8rem;
+}
+
+.donation-form-button {
+	display: block;
+	width: 100%;
+	background-color: var(--secondary);
+	color: white;
+	padding: 0.8rem 2rem;
+	border-radius: 50px;
+	text-decoration: none;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	border: 2px solid var(--secondary);
+	margin-top: 1.5rem;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1rem;
+}
+
+.donation-form-button:hover {
+	background-color: #00000088;
+	color: var(--secondary);
+}
+
+.donation-form-button:disabled {
+	background-color: #cccccc;
+	border-color: #cccccc;
+	color: #666666;
+	cursor: not-allowed;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+	.donation-form-container {
+		padding: 1.5rem;
+		margin: 0 0.5rem;
+	}
+
+	.donation-form-input {
+		padding: 0.7rem;
+	}
+}

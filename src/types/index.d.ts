@@ -13,7 +13,8 @@ export interface InvolvementCardProps {
 	title: string;
 	description: string;
 	buttonText: string;
-	buttonLink: string;
+	buttonLink?: string;
+	onButtonClick?: () => void;
 	additionalText?: string;
 }
 
