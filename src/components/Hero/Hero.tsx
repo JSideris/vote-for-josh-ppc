@@ -44,8 +44,8 @@ const Hero: React.FC = () => {
 					>
 						Donate Now
 					</button> */}
-					<a href="https://donate.stripe.com/5kAcNGb0K2027vyfYY" target='_blank' className="btn btn-secondary" onClick={handleLinkClick}>
-						Learn More
+					<a href="https://donate.stripe.com/5kAcNGb0K2027vyfYY" target='_blank' className="btn btn-secondary">
+						Donate Now
 					</a>
 					<a href="#platform" className="btn btn-primary" onClick={handleLinkClick}>
 						Learn More
