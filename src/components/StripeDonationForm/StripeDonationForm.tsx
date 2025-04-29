@@ -27,7 +27,7 @@ const StripeDonationForm: React.FC = () => {
 
   const MAX_DONATION_AMOUNT = 1750;
   const ELECTION_DATE = new Date(2025, 3, 28); // April 28, 2025
-  const DONATION_END_DATE = new Date(2025, 4, 28); // May 28, 2025 (30 days after election)
+  const DONATION_END_DATE = new Date(2025, 3, 28);
   const PARTY_DONATION_URL = 'https://donate.peoplespartyofcanada.ca/york/';
 
   // Calculate tax credit based on donation amount
@@ -266,7 +266,7 @@ const StripeDonationForm: React.FC = () => {
       <div className="donation-form-container">
         <div className="donation-form-election-over">
           <h2>Donation Period Has Ended</h2>
-          <p>The election was held on April 28, 2025. Donations can no longer be accepted for this candidate campaign as the 30-day post-election donation period has ended.</p>
+          <p>The election was held on April 28, 2025. Donations can no longer be accepted for this candidate campaign as the donation period has ended.</p>
           <p>If you'd like to support the People's Party of Canada, you can make a donation directly to the party:</p>
           <a href={PARTY_DONATION_URL} className="btn" target="_blank" rel="noopener noreferrer">
             Donate to the Party

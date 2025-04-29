@@ -37,16 +37,16 @@ const Hero: React.FC = () => {
 					<a href="#get-involved" className="btn btn-primary" onClick={handleLinkClick}>
 						Get Involved
 					</a>
-					{/* <button 
+					<button 
 						style={buttonStyle}
 						className="btn btn-secondary"
 						onClick={openDonationModal}
 					>
 						Donate Now
-					</button> */}
-					<a href="https://donate.stripe.com/5kAcNGb0K2027vyfYY" target='_blank' className="btn btn-secondary">
+					</button>
+					{/* <a href="https://donate.stripe.com/5kAcNGb0K2027vyfYY" target='_blank' className="btn btn-secondary">
 						Donate Now
-					</a>
+					</a> */}
 					<a href="#platform" className="btn btn-primary" onClick={handleLinkClick}>
 						Learn More
 					</a>

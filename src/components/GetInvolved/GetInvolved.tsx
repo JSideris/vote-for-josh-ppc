@@ -15,9 +15,9 @@ const GetInvolved: React.FC = () => {
 					title="Donate"
 					description="Your contribution makes a real difference in our campaign to bring fresh leadership to Ottawa."
 					buttonText="Donate Now"
-					// onButtonClick={openDonationModal}
+					onButtonClick={openDonationModal}
 					// additionalText="(Support our campaign directly)"
-					buttonLink='https://donate.stripe.com/5kAcNGb0K2027vyfYY'
+					// buttonLink='https://donate.stripe.com/5kAcNGb0K2027vyfYY'
 				/>
 				<InvolvementCard
 					icon="faEnvelope"
